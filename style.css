@@ -1,0 +1,61 @@
+html{
+    margin: 0;
+}
+span{
+    display: block;
+}
+.Canvas{
+    margin: 100px auto a00px;
+    width: 80%;
+    text-align: center;
+}
+.button {
+    width: 100px;
+    height: 100px;
+    display: inline-flex; /* Changed from inline-block to inline-flex */
+    justify-content: center; /* Centers text horizontally */
+    align-items: center;     /* Centers text vertically */
+    border-radius: 50px;
+    font-size: large;
+    text-align: center;
+}
+/* .button:hover{
+    border: 1.5px solid grey
+} */
+#grey{
+    background-color: grey;
+    text-align: center;
+    border-radius: 50px;
+    font-size: large;
+    
+}
+#grey:hover{
+    
+    border: 1px solid black;
+}
+#white{
+    background-color: white;
+    border-radius: 50px;
+    font-size: large;
+}
+#white:hover{
+    border: 1px solid black;
+}
+#red{
+    background-color: red;
+    border-radius: 50px;
+    font-size: large;
+}
+#red:hover{
+    border: 1px solid black;
+    
+}
+#yellow{
+    background-color: yellow;
+    border-radius: 50px;
+    font-size: large;
+}
+#yellow:hover{
+    border: 1px solid black;
+    
+}
